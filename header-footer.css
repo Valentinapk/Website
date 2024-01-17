@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://boryanakrasteva.files.wordpress.com/2019/08/2-1.jpg?w=2000&h=1200&crop=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    padding: 15px;
+    padding-top: 25px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+    min-height: 5em;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+.navi{
+    margin: 0;
+}
+.navi ul{
+    list-style: none;
+}
+.navi li{
+    display: inline;
+    padding-right: 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: font-size .5s;
+    padding-left: 5px;
+    font-family: Garamond, serif;
+    font-size: 36px;
+}
+.navi li:hover{
+    font-size: 30px;
+    border-left: black solid 1px;
+}
+.navi li:active{
+    border-bottom: black solid 1px;
+}
+.navi a{
+    text-decoration: none;
+    color: black;
+}
+.reserve{
+    font-size: 25px;
+    border-top: black solid 1px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.header__logo {
+    position: relative;
+}
+
+.header__logo img {
+    float: none;
+}
+
+.header__logo a { 
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    font-size: 36px;
+    font-family: Garamond, serif;
+    width: 250px;       
+    font-weight: bold;
+    transform: translate(7%, -50%);
+}
+
+
+
+
+
+.columns{
+    background-color: #9fc93e;
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 0px 30px 0px 30px;
+}
+.footer1{
+    flex: 33%;
+    padding-left: 100px;
+}
+.footer2, .footer3{
+    flex: 33%;
+}
+.lines{
+    margin-top: 0;
+}
+.foot-heading{
+    margin-bottom: 0;
+}
+.foot-menu{
+    display: flex;
+}
+.footer1 ul{
+    list-style: none;
+    padding: 0;
+}
+.foot-menu .ul1{
+    flex: 40%;
+}
+.foot-menu .ul2{
+    flex: 60%;
+}
+.footer1 li{
+    padding: 0;
+    font-size: 16px;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.footer1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.footer1 a:hover{
+    font-size: 18px;  
+    color: green;  
+}
+.footer2 img{
+    padding-top: 15px;
+    margin-right: 10px;
+}
+.footer3 img{
+    margin-right: 20px;
+}
+.copyright{
+    padding: 10px;
+    background-color:#ffffff;
+    text-align: center;
+    opacity: 0.8;
+    margin: 0;
+}
+.footer__contacts {
+    margin: 0;  
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__contacts li + li {
+    margin-top: 20px;   
+}
+
+.footer__contacts li {
+    display: flex;
+    align-items: center;
+}
+
+.footer__contacts li img {
+    padding-top: 0;
+    margin-right: 10px;  
+}
+
+.footer__contacts li a {
+    text-decoration: none;
+}
+
+.footer__contacts li a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,109 @@
+.koleden{
+    display: flex;
+    
+}
+.text{
+    float: left;
+    text-align: center;
+    background-color: #9fc93e;
+    height: 400px;
+    width: 50%;
+    border-top-left-radius: 20%;
+  
+   
+}
+.text1{
+    float: right;
+    height: 400px;
+    width: 500px;
+}
+.text2{
+    float: right;
+    height: 400px;
+    width: 500px;
+    clear: both;
+   
+   
+}
+.text3{
+    float: left;
+    text-align: center;
+    background-color: #9fc93e;
+    height: 400px;
+    width: 50%;
+    border-top-right-radius: 20%;
+   
+}
+
+h1{
+    color: rgb(27, 133, 160);
+    margin-top: 60px;
+    padding-top: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(14, 58, 18);
+    font-family: Garamond, serif;
+    font-size: 5em;
+}
+h2{
+    color: rgb(27, 133, 160);
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(14, 58, 18);
+    font-family: Garamond, serif;
+    font-size: 1.6em;
+}
+h3{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(14, 58, 18);
+    font-family: Garamond, serif;
+    font-size: 1.6em;
+}
+p{
+    text-align: justify;
+    margin-top: 70px;
+    font-family: Garamond, serif;
+    margin-left: 3em;
+    margin-right: 3em;
+    font-size: 1.3em;
+    
+}
+
+.text1:hover{
+    opacity: 1;
+}
+
+.koleden{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+}
+.koleden img{
+    height: 400px;
+    width: 500px;
+    
+}
+.text1 img{
+    border-bottom-right-radius: 20%;
+}
+.koleden1 img{
+    height: 400px;
+    width: 500px;
+    border-top-left-radius: 20%;
+    
+}
+.izobr1{
+    height: 400px;
+    width: 500px;
+    border-bottom-left-radius: 20%;
+}
+
+.big{
+    clear: both;
+    width: 90%;
+    margin-left: 5%;
+    right: 5%;
+    background-color: white;
+    margin-bottom: 20px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+
+}

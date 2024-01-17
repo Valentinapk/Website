@@ -1,0 +1,163 @@
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-around;
+    grid-gap: 40px 0px;
+    
+}
+.photo{
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+    transition: 0.5s;
+    opacity: 0.6;
+}
+h1{
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 650px;
+    color: rgb(71, 46, 29);
+}
+.photo:hover{
+    border-radius: 1%;
+width: 600px;
+height: 600px;
+transition: 0.5s;
+opacity: 1;
+}
+body{
+    margin: 0;
+    padding: 0;
+   background-color: antiquewhite;
+    font-family: 'Oswald', sans-serif;
+
+}
+header{
+    padding: 15px;
+    padding-top: 25px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+    height: 5em;
+}
+.navi{
+    float: right;
+    
+}
+.navi ul{
+    list-style: none;
+}
+.navi li{
+    display: inline;
+    padding-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: font-size .5s;
+    padding-left: 5px;
+    font-family: Garamond, serif;
+    font-size: 2em;
+}
+.navi li:hover{
+    font-family: Garamond, serif;
+    font-size: 2.5em;
+    border-left: black solid 1px;
+}
+.navi li:active{
+    border-bottom: black solid 1px;
+}
+.navi a{
+    text-decoration: none;
+    color: black;
+}
+.reserve{
+    font-size: 25px;
+    border-top: black solid 1px;
+}
+.logo{
+    width: 95px;
+    height: 95px;
+    float: left;
+    margin-left: 20px;
+    position: static;
+}
+
+
+
+
+
+.columns{
+    background-color: #9fc93e;
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 0px 30px 0px 30px;
+}
+.footer1{
+    flex: 33%;
+    padding-left: 100px;
+}
+.footer2, .footer3{
+    flex: 33%;
+}
+.lines{
+    margin-top: 0;
+}
+.foot-heading{
+    margin-bottom: 0;
+}
+.foot-menu{
+    display: flex;
+}
+.footer1 ul{
+    list-style: none;
+    padding: 0;
+}
+.foot-menu .ul1{
+    flex: 40%;
+}
+.foot-menu .ul2{
+    flex: 60%;
+}
+.footer1 li{
+    padding: 0;
+    font-size: 16px;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.footer1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.footer1 a:hover{
+    font-size: 18px;  
+    color: green;  
+}
+.footer2 img{
+    padding-top: 15px;
+    margin-right: 10px;
+}
+.footer3 img{
+    margin-right: 20px;
+}
+.copyright{
+    padding: 10px;
+    background-color:#ffffff;
+    text-align: center;
+    opacity: 0.8;
+    margin: 0;
+}
+
+
+
+.name{
+   font-size: 36px;
+   text-decoration: none;
+color: black;
+position: absolute;
+font-family: Garamond, serif;
+width: 250px;       
+font-weight: bold;
+transform: translate(7%, -50%);
+margin-top: 50px;
+}
